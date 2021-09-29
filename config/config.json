@@ -1,0 +1,24 @@
+{
+	"config": {
+		"language": {
+			"default": "fr",
+			"selected": "fr",
+			"available": {
+				"en": "English",
+				"fr": "Français"
+			}
+		},
+		"window": {
+			"width": 300,
+			"height": 200,
+			"head_width": 50
+		}
+	},
+	"version": "0.0.1",
+	"author": {
+		"name": "Mohamed Zeba",
+		"email": "parice02@hotmail.com",
+		"github": "parice02",
+		"project": "https://github.com/parice02/anagram"
+	}
+}
