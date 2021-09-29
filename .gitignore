@@ -135,5 +135,4 @@ dmypy.json
 test*
 __pycache__
 setup.py
-numword
 __init__.py
