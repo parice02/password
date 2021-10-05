@@ -2,8 +2,8 @@ import tkinter
 from tkinter import font, messagebox
 from gettext import gettext as _
 
-from generator import generate
-from utility import LoggerTimer, _config
+from generator import generate_password
+from utility import _config
 
 LANG = _config["config"]["language"]["available"]
 HEIGHT, WIDTH, HEAD_HEIGHT = (
@@ -100,7 +100,7 @@ class GeneratorUI:
         self.length = self.text_field.get() or 10
         try:
             self.length = int(self.length)
-            password = generate(self.length)
+            password = generate_password(self.length)
             # self.config_scroll(line=10 * len(password), column=20)
             self.text.insert("end", password)
         except Exception as ex:
